@@ -1,0 +1,29 @@
+{
+  "packageName": "Hyundai Bluelink Integration for Hubitat",
+  "author": "Tim Yuhl (@WindowWasher)",
+  "version": "1.1.0",
+  "minimumHEVersion": "2.2.4",
+  "dateReleased": "2026-02-04",
+  "communityLink": "https://community.hubitat.com/t/release-hyundai-bluelink-remote-start-lock-support-beta/79044",
+  "documentationLink": "https://github.com/tyuhl/Hyundai-Bluelink/blob/main/README.md",
+  "drivers": [
+    {
+      "id": "1ce6ef04-d14d-4833-b526-89372ae2264e",
+      "name": "Hyundai Bluelink Driver",
+      "namespace": "tyuhl",
+      "location": "https://raw.githubusercontent.com/tyuhl/Hyundai-Bluelink/refs/heads/main/BluelinkDriver.groovy",
+      "required": true
+    }
+  ],
+  "apps": [
+    {
+      "id": "5ad18486-1dc7-4544-bc86-6e30302827b4",
+      "name": "Hyundai Bluelink App",
+      "namespace": "tyuhl",
+      "location": "https://raw.githubusercontent.com/tyuhl/Hyundai-Bluelink/refs/heads/main/BluelinkApp.groovy",
+      "required": true,
+      "oauth": true,
+      "primary": false
+    }
+  ]
+}

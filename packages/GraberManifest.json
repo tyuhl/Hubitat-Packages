@@ -1,0 +1,18 @@
+{
+  "packageName": "Graber Shade Driver",
+  "author": "Tim Yuhl (@WindowWasher)",
+  "version": "1.0.2",
+  "minimumHEVersion": "2.2.4",
+  "dateReleased": "2021-07-21",
+  "communityLink": "https://community.hubitat.com/t/release-graber-virtual-cord-shade-driver-beta/77095",
+  "documentationLink": "https://github.com/tyuhl/GraberShade/blob/main/README.md",
+  "drivers": [
+    {
+      "id": "0cf6b0f5-da53-40b3-bc00-b847188333a6",
+      "name": "Graber Shade Driver",
+      "namespace": "tyuhl",
+      "location": "https://raw.githubusercontent.com/tyuhl/GraberShade/refs/heads/main/graber-shade-driver.groovy",
+      "required": true
+    }
+  ]
+}

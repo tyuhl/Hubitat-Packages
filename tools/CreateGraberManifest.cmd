@@ -1,0 +1,2 @@
+hpm manifest-create ..\packages\GraberManifest.json --name="Graber Shade Driver" --author="Tim Yuhl (@WindowWasher)" --version=1.0.2 --heversion=2.2.4 --datereleased=2021-07-21
+hpm manifest-add-driver ..\packages\GraberManifest.json --location=https://raw.githubusercontent.com/tyuhl/GraberShade/refs/heads/main/graber-shade-driver.groovy --required=true
