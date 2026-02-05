@@ -1,0 +1,26 @@
+{
+  "author": "Tim Yuhl (@WindowWasher)",
+  "gitHubUrl": "https://github.com/tyuhl",
+  "packages": [
+    {
+      "id": "393df368-462b-4585-a28c-44f713ede1c7",
+      "name": "Graber Shade Driver",
+      "category": "Convenience",
+      "location": "https://raw.githubusercontent.com/tyuhl/Hubitat-Packages/refs/heads/main/packages/GraberManifest.json",
+      "description": "Driver for Graber Shades, including battery reporting and setting date batteries replaced",
+      "tags": [
+        "Window Coverings"
+      ]
+    },
+    {
+      "id": "82dbcc8f-1503-4ef4-8668-c3a99055bcd0",
+      "name": "Hyundai Bluelink Integration for Hubitat",
+      "category": "Convenience",
+      "location": "https://raw.githubusercontent.com/tyuhl/Hubitat-Packages/refs/heads/main/packages/BluelinkManifest.json",
+      "description": "Hyundai Bluelink Integration for Remote Climate Start/Stop/Lock/Unlock",
+      "tags": [
+        "Vehicles & Transportation"
+      ]
+    }
+  ]
+}
