@@ -1,0 +1,3 @@
+hpm manifest-create ..\packages\BluelinkManifest.json --name="Hyundai Bluelink Integration for Hubitat" --author="Tim Yuhl (@WindowWasher)" --version=1.1.0 --heversion=2.2.4 --datereleased=2026-02-04
+hpm manifest-add-driver ..\packages\BluelinkManifest.json --location=https://raw.githubusercontent.com/tyuhl/Hyundai-Bluelink/refs/heads/main/BluelinkDriver.groovy --required=true
+hpm manifest-add-app ..\packages\BluelinkManifest.json --location=https://raw.githubusercontent.com/tyuhl/Hyundai-Bluelink/refs/heads/main/BluelinkApp.groovy --required=true --oauth=true
