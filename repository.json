@@ -9,7 +9,8 @@
       "location": "https://raw.githubusercontent.com/tyuhl/Hubitat-Packages/refs/heads/main/packages/GraberManifest.json",
       "description": "Driver for Graber Shades, including battery reporting and setting date batteries replaced",
       "tags": [
-        "Window Coverings"
+        "Window Coverings",
+        "ZWave"
       ]
     },
     {
@@ -19,7 +20,8 @@
       "location": "https://raw.githubusercontent.com/tyuhl/Hubitat-Packages/refs/heads/main/packages/BluelinkManifest.json",
       "description": "Hyundai Bluelink Integration for Remote Climate Start/Stop/Lock/Unlock",
       "tags": [
-        "Vehicles & Transportation"
+        "Vehicles & Transportation",
+        "Cloud"
       ]
     }
   ]
