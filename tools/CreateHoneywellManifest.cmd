@@ -1,0 +1,4 @@
+hpm manifest-create ..\packages\HoneywellManifest.json --name="Honeywell Home Intergraion Lyric and T Series Devices (cloud)" --author="Tim Yuhl (@WindowWasher)" --version=1.0.5 --heversion=2.2.4 --datereleased=2026-02-19
+hpm manifest-add-driver ..\packages\HoneywellManifest.json --location=https://raw.githubusercontent.com/tyuhl/hubitat-honeywell-Maintenance/refs/heads/main/honeywellhomedriver.groovy --required=true
+hpm manifest-add-driver ..\packages\HoneywellManifest.json --location=https://raw.githubusercontent.com/tyuhl/hubitat-honeywell-Maintenance/refs/heads/main/honeywellremotesensordriver.groovy --required=true
+hpm manifest-add-app ..\packages\HoneywellManifest.json --location=https://raw.githubusercontent.com/tyuhl/hubitat-honeywell-Maintenance/refs/heads/main/honeywellhomeapp.groovy --required=true --oauth=true

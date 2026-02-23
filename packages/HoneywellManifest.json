@@ -1,0 +1,36 @@
+{
+  "packageName": "Honeywell Home Intergraion Lyric and T Series Devices (cloud)",
+  "author": "Tim Yuhl (@WindowWasher)",
+  "version": "1.0.5",
+  "minimumHEVersion": "2.2.4",
+  "dateReleased": "2026-02-19",
+  "communityLink": "https://community.hubitat.com/t/release-beta-1-version-of-honeywell-home-thermostats-lyric-etc/57066/355",
+  "documentationLink": "https://github.com/tyuhl/hubitat-honeywell-Maintenance/blob/main/README.md",
+  "drivers": [
+    {
+      "id": "a1346ab8-8a59-4774-b268-d0d51d69dfea",
+      "name": "Honeywell Home Thermostat",
+      "namespace": "thecloudtaylor",
+      "location": "https://raw.githubusercontent.com/tyuhl/hubitat-honeywell-Maintenance/refs/heads/main/honeywellhomedriver.groovy",
+      "required": true
+     },
+    {
+      "id": "dceb1ae5-0b9f-4021-94f5-afb95fb1c760",
+      "name": "Honeywell Home Remote Sensor",
+      "namespace": "thecloudtaylor",
+      "location": "https://raw.githubusercontent.com/tyuhl/hubitat-honeywell-Maintenance/refs/heads/main/honeywellremotesensordriver.groovy",
+      "required": true
+    }
+  ],
+  "apps": [
+    {
+      "id": "67b0a707-9b49-4e78-a352-950d917ad581",
+      "name": "Honeywell Home",
+      "namespace": "thecloudtaylor",
+      "location": "https://raw.githubusercontent.com/tyuhl/hubitat-honeywell-Maintenance/refs/heads/main/honeywellhomeapp.groovy",
+      "required": true,
+      "oauth": true,
+      "primary": false
+    }
+  ]
+}
