@@ -1,9 +1,9 @@
 {
   "packageName": "Honeywell Home Integration Lyric and T Series Devices (cloud)",
   "author": "Tim Yuhl (@WindowWasher)",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "minimumHEVersion": "2.2.4",
-  "dateReleased": "2026-02-19",
+  "dateReleased": "2026-05-19",
   "communityLink": "https://community.hubitat.com/t/release-beta-1-version-of-honeywell-home-thermostats-lyric-etc/57066/355",
   "documentationLink": "https://github.com/tyuhl/hubitat-honeywell-Maintenance/blob/main/README.md",
   "drivers": [
