@@ -1,9 +1,10 @@
 {
   "packageName": "Hyundai Bluelink Integration for Hubitat",
   "author": "Tim Yuhl (@WindowWasher)",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "minimumHEVersion": "2.2.4",
-  "dateReleased": "2026-02-04",
+  "dateReleased": "2026-07-29",
+  "releaseNotes": "1.1.1: Minor logging improvemet",
   "communityLink": "https://community.hubitat.com/t/release-hyundai-bluelink-remote-start-lock-support-beta/79044",
   "documentationLink": "https://github.com/tyuhl/Hyundai-Bluelink/blob/main/README.md",
   "drivers": [
